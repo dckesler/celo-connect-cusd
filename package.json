@@ -1,0 +1,21 @@
+{
+  "name": "distributions",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scan": "ts-node ./src/start.ts"
+  },
+  "dependencies": {
+    "@celo/contractkit": "^1.5.2",
+    "@celo/explorer": "^1.5.2",
+    "axios": "^0.26.1",
+    "prompt": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "@types/prompt": "^1.1.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
